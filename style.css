@@ -320,7 +320,7 @@ footer .logo img {
     }
 
     .recipes-container {
-   padding-inline: auto;
+   padding-inline: unset;
     }
     .subscription-form, .about-author {
         flex-direction: column;
