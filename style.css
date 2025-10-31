@@ -18,7 +18,6 @@ header {
 }
 
 
-
 nav ul {
     list-style: none;
     display:flex;
@@ -131,9 +130,12 @@ main {
 
     display: flex;
     gap: 20px;
-    padding-inline: 100px;
+   padding-inline: 100px;
 }
 
+.recipes-container h2 {
+
+}
 
 
 .latest-recipes article img {
@@ -302,9 +304,8 @@ footer .logo img {
 }
 
 @media (max-width: 700px) {
-    header, .encabezados-nav ul, .subscription-form {
+    header, .encabezados-nav ul {
         flex-direction: column;
-        width: auto;
     }
     footer, .popular-grid-container, .category-nav, .category-nav ul, .recipes-container {
         flex-direction: column;
@@ -316,5 +317,12 @@ footer .logo img {
     }
     .social-icons {
         margin-left: unset;
+    }
+
+    .recipes-container {
+   padding-inline: auto;
+    }
+    .subscription-form, .about-author {
+        flex-direction: column;
     }
     }
