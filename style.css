@@ -302,8 +302,9 @@ footer .logo img {
 }
 
 @media (max-width: 700px) {
-    header, .encabezados-nav ul {
+    header, .encabezados-nav ul, .subscription-form {
         flex-direction: column;
+        width: auto;
     }
     footer, .popular-grid-container, .category-nav, .category-nav ul, .recipes-container {
         flex-direction: column;
